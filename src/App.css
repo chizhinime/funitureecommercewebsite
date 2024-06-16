@@ -1,0 +1,255 @@
+*{
+  font-family:'Arial';
+}
+body {
+  margin: 0;
+  font-family: 'Arial, sans-serif';
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+}
+.forge-container{
+  text-align:center;
+  text-decoration: none;
+  padding: 25px;
+}
+.forge-img{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forge-img p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.header-icons i {
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.hero {
+  background: url('./assets/img/headerback.png') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-align: left;
+  position: relative;
+  margin-left: 0px;
+}
+
+.hero-content {
+  background: rgba(255, 229, 179, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-left: 500px;
+  width:500px;
+  margin-bottom: 100px;
+}
+
+.hero-content h2 {
+  font-size: 1.0rem;
+  font-family:'Arial';
+  color: #333;
+}
+img{
+  border-radius: 10px;
+}
+.p-page{
+  padding: 10px;
+}
+.hero-content h1 {
+  color: #bd760cc7;
+  font-size: 3.5rem;
+  margin: 1rem 0;
+  font-family: 'Arial';
+}
+
+.hero-content p {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.hero-content .btn {
+  background: #C58A2A; /* Match the button color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 1px;
+  height: 70px;
+  width: 195px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+}
+
+.product-list {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-list h2 {
+  margin-bottom: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 250px;
+  height: 450px;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  padding: 0rem;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+}
+.inside{
+  background: url('./assets/img/headerback.png') no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 10px;
+}
+.inside2{
+  text-align: left;
+  background-color: #ddd;
+  height: 153px;
+  background-size: cover;
+  margin-top: -20px;
+  color: rgba(50, 50, 50);
+}
+.product-card .discount {
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 180px;
+}
+
+.product-card button {
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Inspiration Styles */
+.inspiration {
+  padding: 2rem;
+  text-align: center;
+}
+
+.inspiration .btn {
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+  height: 400px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.footer-links a {
+  justify-content: space-between;
+  padding: 20px;
+  text-decoration: none;
+  color:#333;
+}
+.footer-edg{
+  text-align: left;
+  padding: 5px;
+
+}
+.main-footer{
+  text-decoration: none;
+  display: flex;
+}
+.main-footer li{
+  color: #e9e2e2;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.footer-info {
+  margin: 10px;
+  text-align: left;
+  justify-content: space-between;
+  color: #999;
+  padding-top: 25px;
+}
+.footer-info h2{
+  color:#999;
+  padding-top: 25px;
+}
+.footer-info{
+  margin-left: 200px;
+}
+.footer-newsletter input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #eee;
+}
+
+.footer-newsletter button {
+  background: #000;
+  color: #eee;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
